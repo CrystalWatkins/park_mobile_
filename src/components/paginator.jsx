@@ -11,7 +11,7 @@ const Paginator = ({ itemsCount, pageSize, currentPage, onPageChange }) => {
   console.log("currentPage", currentPage);
 
   return (
-    <nav aria-label="Page navigation example" style={{ cursor: "pointer" }}>
+    <nav aria-label="Page navigation example" style={{ cursor: "pointer", marginTop: "150px" }}>
       <ul className="pagination pg-teal">
         <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
           {/* clicking this takes us to page 1 */}

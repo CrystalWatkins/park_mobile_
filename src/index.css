@@ -14,3 +14,49 @@ code {
 .margin{
  padding-left: 10px;
 }
+.bg-color{
+  background-color: whitesmoke;
+}
+
+/* // ---------------ClearFix-------------------// */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* medium screen ipads */
+@media only screen and (max-width: 559px) {
+
+
+  .card.user-card {
+    width: 96%;
+    float: left;
+    height: 24rem;
+    margin: 0.5rem 2%;
+  }
+
+}
+
+/* medium screen ipads */
+@media only screen and (min-width: 560px) {
+
+  .card.user-card {
+    width: 46%;
+    float: left;
+    height: 24rem;
+    margin: 0.5rem 2%;
+  }
+
+}
+
+/* This is default */
+@media only screen and (min-width: 1140px) {
+  .card.user-card {
+    width: 21%;
+    float: left;
+    height: 24rem;
+    margin: 0.5rem 2%;
+  }
+
+}
