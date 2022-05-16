@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/park_mobile/static/css/main.a7ab9d30.css",
+    "main.js": "/park_mobile/static/js/main.f55b87dd.js",
+    "index.html": "/park_mobile/index.html",
+    "main.a7ab9d30.css.map": "/park_mobile/static/css/main.a7ab9d30.css.map",
+    "main.f55b87dd.js.map": "/park_mobile/static/js/main.f55b87dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ab9d30.css",
+    "static/js/main.f55b87dd.js"
+  ]
+}
